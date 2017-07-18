@@ -52,6 +52,12 @@ Style/IfUnlessModifier:
   Enabled: false
 Style/MethodCallWithArgsParentheses:
   Enabled: true
+  Exclude:
+  - "*.gemspec"
+  - "**/schema.rb"
+  - config.ru
+  - Gemfile
+  IgnoreMacros: true
   IgnoredMethods:
   - alias
   - alias_method
@@ -91,11 +97,6 @@ Style/MethodCallWithArgsParentheses:
   - validates_presence
   - validates_unique
   - xit
-  Exclude:
-  - "*.gemspec"
-  - "**/schema.rb"
-  - config.ru
-  - Gemfile
 Style/MutableConstant:
   Enabled: false
 Style/NumericPredicate:
