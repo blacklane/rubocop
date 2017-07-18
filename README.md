@@ -23,6 +23,10 @@ When running `rubocop`, the remote configuration file will be cached locally as 
 
 If you see style errors in CI that you can't reproduce locally, that's probably because of the cached `.rubocop-https--raw-github...` file. You'll need to remove it, ideally whenever the `rubocop.yml` file inside this repository changes.
 
+## Versioning
+
+When the time comes, we might want to maintain different versions of this configuration file - most probably with branches or tags. But ideally we should try and keep one version for all our projects.
+
 ## Contribution
 
 - Keep the rules and their settings sorted alphabetically.
