@@ -25,6 +25,7 @@ If you see style errors in CI that you can't reproduce locally, that's probably 
 
 ## Contribution
 
+- Keep the rules and their settings sorted alphabetically.
 - Make a PR.
 - Discuss.
 - :shipit:
@@ -32,4 +33,4 @@ If you see style errors in CI that you can't reproduce locally, that's probably 
 ## Other
 
 - [The list of available cops](https://github.com/bbatsov/rubocop/blob/master/manual/cops.md)
-- [A gem for running Rubocop only on the git changes](https://github.com/m4i/rubocop-git)
+- [Pronto: A gem for running Rubocop only on the git changes](https://github.com/prontolabs/pronto)
