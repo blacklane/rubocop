@@ -1,0 +1,90 @@
+# See https://github.com/bbatsov/rubocop/blob/master/manual/cops.md
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+  - "**/vendor/**/*"
+Layout/IndentHash:
+  EnforcedStyle: consistent
+Lint/AmbiguousOperator:
+  Enabled: false
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: false
+Metrics/BlockLength:
+  Enabled: false
+ClassAndModuleChildren:
+  Exclude:
+  - spec/**/*.rb
+  - test/**/*.rb
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Style/AccessorMethodName:
+  Enabled: false
+Style/Alias:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/MethodCallWithArgsParentheses:
+  Enabled: true
+  IgnoredMethods:
+  - alias
+  - alias_method
+  - attr_accessor
+  - attr_reader
+  - attr_writer
+  - context
+  - desc
+  - describe
+  - fail
+  - include
+  - it
+  - puts
+  - raise
+  - render
+  - require
+  - require_relative
+  - task
+  - to
+  - use
+  - xit
+  Exclude:
+  - "*.gemspec"
+  - "**/schema.rb"
+  - config.ru
+  - Gemfile
+Style/MutableConstant:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: "()"
+    "%i": "()"
+    "%I": "()"
+    "%r": "{}"
+    "%w": "()"
+    "%W": "()"
+Style/RegexpLiteral:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
