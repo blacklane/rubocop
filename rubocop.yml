@@ -3,6 +3,7 @@ AllCops:
   DisplayCopNames: true
   Exclude:
   - "**/vendor/**/*"
+  - "**/vendor/**/.*"
 Layout/IndentHash:
   EnforcedStyle: consistent
 Lint/AmbiguousOperator:
