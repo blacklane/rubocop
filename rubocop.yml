@@ -60,6 +60,10 @@ Style/MethodCallWithArgsParentheses:
   - fail
   - include
   - it
+  - many_to_many
+  - many_to_one
+  - one_to_many
+  - one_to_one
   - puts
   - raise
   - render
@@ -68,6 +72,15 @@ Style/MethodCallWithArgsParentheses:
   - task
   - to
   - use
+  - validates_email
+  - validates_format
+  - validates_includes
+  - validates_integer
+  - validates_max_length
+  - validates_numeric
+  - validates_phonenumber
+  - validates_presence
+  - validates_unique
   - xit
   Exclude:
   - "*.gemspec"
