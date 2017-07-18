@@ -1,0 +1,2 @@
+# rubocop
+Code style conventions
