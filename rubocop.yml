@@ -12,6 +12,8 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
   AllowSafeAssignment: false
+Lint/HandleExceptions:
+  Enabled: false
 Metrics/BlockLength:
   Enabled: false
 ClassAndModuleChildren:
@@ -59,6 +61,7 @@ Style/MethodCallWithArgsParentheses:
   - describe
   - fail
   - include
+  - include_examples
   - it
   - many_to_many
   - many_to_one
@@ -69,6 +72,7 @@ Style/MethodCallWithArgsParentheses:
   - render
   - require
   - require_relative
+  - shared_examples
   - task
   - to
   - use
@@ -89,6 +93,8 @@ Style/MethodCallWithArgsParentheses:
   - Gemfile
 Style/MutableConstant:
   Enabled: false
+Style/NumericPredicate:
+  Enabled: false
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     default: "()"
@@ -102,3 +108,7 @@ Style/RegexpLiteral:
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
+Style/TernaryParentheses:
+  EnforcedStyle: require_parentheses_when_complex
+Style/WordArray:
+  Enabled: false
