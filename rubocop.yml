@@ -59,6 +59,11 @@ Style/MethodCallWithArgsParentheses:
   - Gemfile
   IgnoreMacros: true
   IgnoredMethods:
+  - alias
+  - alias_method
+  - attr_accessor
+  - attr_reader
+  - attr_writer
   - context
   - desc
   - describe
