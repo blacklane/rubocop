@@ -59,23 +59,15 @@ Style/MethodCallWithArgsParentheses:
   - Gemfile
   IgnoreMacros: true
   IgnoredMethods:
-  - alias
-  - alias_method
-  - attr_accessor
-  - attr_reader
-  - attr_writer
   - context
   - desc
   - describe
   - fail
+  - halt
   - include
   - include_examples
   - it
-  - many_to_many
-  - many_to_one
   - not_to
-  - one_to_many
-  - one_to_one
   - puts
   - raise
   - render
@@ -85,17 +77,9 @@ Style/MethodCallWithArgsParentheses:
   - should
   - should_not
   - task
+  - throw
   - to
   - use
-  - validates_email
-  - validates_format
-  - validates_includes
-  - validates_integer
-  - validates_max_length
-  - validates_numeric
-  - validates_phonenumber
-  - validates_presence
-  - validates_unique
   - xit
 Style/MutableConstant:
   Enabled: false
