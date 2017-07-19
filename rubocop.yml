@@ -47,7 +47,7 @@ Style/Documentation:
 Style/DoubleNegation:
   Enabled: false
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  Enabled: true
 Style/IfUnlessModifier:
   Enabled: false
 Style/MethodCallWithArgsParentheses:
@@ -57,6 +57,7 @@ Style/MethodCallWithArgsParentheses:
   - "**/schema.rb"
   - config.ru
   - Gemfile
+  - "**/factories/**/*_factory.rb"
   IgnoreMacros: true
   IgnoredMethods:
   - alias
