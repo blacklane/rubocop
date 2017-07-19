@@ -56,10 +56,11 @@ Style/ImplicitRuntimeError:
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
+  - "**/factories/**/*_factory.rb"
+  - "**/migrate/*"
   - "*.gemspec"
   - config.ru
   - Gemfile
-  - "**/factories/**/*_factory.rb"
   IgnoreMacros: true
   IgnoredMethods:
   - alias
