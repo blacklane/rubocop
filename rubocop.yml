@@ -103,6 +103,8 @@ Style/PercentLiteralDelimiters:
     "%r": "{}"
     "%w": "()"
     "%W": "()"
+Style/RedundantException:
+  Enabled: false
 Style/RegexpLiteral:
   Enabled: false
 Style/StringLiterals:
