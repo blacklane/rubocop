@@ -14,8 +14,10 @@ Lint/AmbiguousOperator:
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
-  AllowSafeAssignment: false
+  AllowSafeAssignment: true
 Lint/HandleExceptions:
+  Enabled: false
+Metrics/AbcSize:
   Enabled: false
 Metrics/BlockLength:
   Enabled: false
@@ -37,8 +39,6 @@ Metrics/ParameterLists:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
-Metrics/AbcSize:
-  Enabled: false
 Style/AccessorMethodName:
   Enabled: false
 Style/Alias:
@@ -51,6 +51,8 @@ Style/FrozenStringLiteralComment:
   Enabled: true
 Style/IfUnlessModifier:
   Enabled: false
+Style/ImplicitRuntimeError:
+  Enabled: true
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
@@ -68,6 +70,7 @@ Style/MethodCallWithArgsParentheses:
   - context
   - desc
   - describe
+  - example
   - fail
   - halt
   - include
