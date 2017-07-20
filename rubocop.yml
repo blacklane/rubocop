@@ -7,6 +7,10 @@ AllCops:
   - "**/vendor/**/.*"
 Bundler/OrderedGems:
   Enabled: false
+Layout/CaseIndentation:
+  EnforcedStyle: end
+Layout/ElseAlignment:
+  Enabled: false
 Layout/IndentHash:
   EnforcedStyle: consistent
 Lint/AmbiguousOperator:
@@ -15,6 +19,8 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
   AllowSafeAssignment: true
+Lint/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Lint/HandleExceptions:
   Enabled: false
 Metrics/AbcSize:
@@ -46,6 +52,8 @@ Style/Alias:
 Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
+  Enabled: false
+Style/EmptyCaseCondition:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: true
