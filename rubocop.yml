@@ -65,10 +65,10 @@ Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
   - "**/factories/**/*_factory.rb"
+  - "**/Gemfile"
   - "**/migrate/*"
   - "*.gemspec"
   - config.ru
-  - Gemfile
   IgnoreMacros: true
   IgnoredMethods:
   - alias
