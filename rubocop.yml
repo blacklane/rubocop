@@ -45,6 +45,8 @@ Metrics/ParameterLists:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
 Style/AccessorMethodName:
   Enabled: false
 Style/Alias:
