@@ -45,8 +45,6 @@ Metrics/ParameterLists:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
-Naming/VariableNumber:
-  EnforcedStyle: snake_case
 Style/AccessorMethodName:
   Enabled: false
 Style/Alias:
@@ -122,5 +120,7 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
+Style/VariableNumber:
+  EnforcedStyle: snake_case
 Style/WordArray:
   Enabled: false
