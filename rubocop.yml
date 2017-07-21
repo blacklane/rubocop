@@ -85,6 +85,8 @@ Style/MethodCallWithArgsParentheses:
   - include
   - include_examples
   - it
+  - it_behaves_like
+  - it_should_behave_like
   - not_to
   - puts
   - raise
