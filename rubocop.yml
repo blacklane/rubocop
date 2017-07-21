@@ -64,6 +64,8 @@ Style/ImplicitRuntimeError:
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
+  - "**/config/routes.rb"
+  - "**/config/routes/*.rb"
   - "**/factories/**/*_factory.rb"
   - "**/Gemfile"
   - "**/migrate/*"
