@@ -99,6 +99,7 @@ Style/MethodCallWithArgsParentheses:
   - task
   - throw
   - to
+  - to_not
   - use
   - xit
 Style/MutableConstant:
