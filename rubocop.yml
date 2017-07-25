@@ -85,6 +85,7 @@ Style/MethodCallWithArgsParentheses:
   - fail
   - halt
   - include
+  - include_context
   - include_examples
   - it
   - it_behaves_like
