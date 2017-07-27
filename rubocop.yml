@@ -64,6 +64,7 @@ Style/ImplicitRuntimeError:
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
+  - "**/*.rabl"
   - "**/config/routes.rb"
   - "**/config/routes/*.rb"
   - "**/factories/**/*_factory.rb"
@@ -78,6 +79,8 @@ Style/MethodCallWithArgsParentheses:
   - attr_accessor
   - attr_reader
   - attr_writer
+  - attribute
+  - attributes
   - context
   - desc
   - describe
