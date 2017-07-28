@@ -64,6 +64,7 @@ Style/ImplicitRuntimeError:
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   Exclude:
+  - "**/*.jbuilder"
   - "**/*.rabl"
   - "**/config/routes.rb"
   - "**/config/routes/*.rb"
@@ -76,6 +77,7 @@ Style/MethodCallWithArgsParentheses:
   IgnoredMethods:
   - alias
   - alias_method
+  - And
   - attr_accessor
   - attr_reader
   - attr_writer
@@ -86,6 +88,7 @@ Style/MethodCallWithArgsParentheses:
   - describe
   - example
   - fail
+  - Given
   - halt
   - include
   - include_context
@@ -103,10 +106,12 @@ Style/MethodCallWithArgsParentheses:
   - should
   - should_not
   - task
+  - Then
   - throw
   - to
   - to_not
   - use
+  - When
   - xit
 Style/MutableConstant:
   Enabled: false
