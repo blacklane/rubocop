@@ -58,6 +58,8 @@ Style/EmptyCaseCondition:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: true
+  Exclude:
+    - "**/migrate/*"
 Style/IfUnlessModifier:
   Enabled: false
 Style/ImplicitRuntimeError:
