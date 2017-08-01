@@ -87,6 +87,8 @@ Style/MethodCallWithArgsParentheses:
   - desc
   - describe
   - example
+  - eq
+  - eql
   - fail
   - Given
   - halt
