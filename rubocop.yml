@@ -99,6 +99,7 @@ Style/MethodCallWithArgsParentheses:
   - not_to
   - puts
   - raise
+  - redirect_to
   - render
   - require
   - require_relative
