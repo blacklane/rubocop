@@ -5,6 +5,7 @@ AllCops:
   - "**/schema.rb"
   - "**/vendor/**/*"
   - "**/vendor/**/.*"
+  - "bin/*"
 Bundler/OrderedGems:
   Enabled: false
 Layout/CaseIndentation:
