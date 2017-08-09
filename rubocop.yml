@@ -14,6 +14,9 @@ Layout/ElseAlignment:
   Enabled: false
 Layout/IndentHash:
   EnforcedStyle: consistent
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+  - spec/**/*.rb
 Lint/AmbiguousOperator:
   Enabled: false
 Lint/AmbiguousRegexpLiteral:
@@ -28,10 +31,6 @@ Metrics/AbcSize:
   Enabled: false
 Metrics/BlockLength:
   Enabled: false
-ClassAndModuleChildren:
-  Exclude:
-  - spec/**/*.rb
-  - test/**/*.rb
 Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
@@ -50,6 +49,12 @@ Style/AccessorMethodName:
   Enabled: false
 Style/Alias:
   Enabled: false
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+Style/ClassAndModuleChildren:
+  Exclude:
+  - spec/**/*.rb
+  - test/**/*.rb
 Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
@@ -59,7 +64,9 @@ Style/EmptyCaseCondition:
 Style/FrozenStringLiteralComment:
   Enabled: true
   Exclude:
-    - "**/migrate/*"
+  - spec/**/*.rb
+  - test/**/*.rb
+  - "**/migrate/*"
 Style/IfUnlessModifier:
   Enabled: false
 Style/ImplicitRuntimeError:
