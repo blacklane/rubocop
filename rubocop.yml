@@ -16,7 +16,7 @@ Layout/IndentHash:
   EnforcedStyle: consistent
 Lint/AmbiguousBlockAssociation:
   Exclude:
-  - spec/**/*.rb
+  - "**/spec/**/*.rb"
 Lint/AmbiguousOperator:
   Enabled: false
 Lint/AmbiguousRegexpLiteral:
@@ -53,8 +53,8 @@ Style/BlockDelimiters:
   EnforcedStyle: semantic
 Style/ClassAndModuleChildren:
   Exclude:
-  - spec/**/*.rb
-  - test/**/*.rb
+  - "**/spec/**/*.rb"
+  - "**/test/**/*.rb"
 Style/Documentation:
   Enabled: false
 Style/DoubleNegation:
@@ -64,8 +64,8 @@ Style/EmptyCaseCondition:
 Style/FrozenStringLiteralComment:
   Enabled: true
   Exclude:
-  - spec/**/*.rb
-  - test/**/*.rb
+  - "**/spec/**/*.rb"
+  - "**/test/**/*.rb"
   - "**/migrate/*"
 Style/IfUnlessModifier:
   Enabled: false
