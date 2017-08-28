@@ -114,6 +114,7 @@ Style/MethodCallWithArgsParentheses:
   - require
   - require_relative
   - shared_examples
+  - shared_context
   - should
   - should_not
   - task
