@@ -80,6 +80,7 @@ Style/MethodCallWithArgsParentheses:
   - "**/config/routes/*.rb"
   - "**/factories/**/*_factory.rb"
   - "**/Gemfile"
+  - "**/Rakefile"
   - "**/migrate/*"
   - "*.gemspec"
   - config.ru
