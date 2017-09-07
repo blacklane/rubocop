@@ -49,6 +49,8 @@ Style/AccessorMethodName:
   Enabled: false
 Style/Alias:
   Enabled: false
+Style/AsciiComments:
+  Enabled: false
 Style/BlockDelimiters:
   EnforcedStyle: semantic
 Style/ClassAndModuleChildren:
