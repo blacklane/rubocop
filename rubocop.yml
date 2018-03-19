@@ -108,6 +108,7 @@ Style/MethodCallWithArgsParentheses:
   - describe
   - example
   - fail
+  - feature
   - Given
   - halt
   - include
@@ -129,12 +130,14 @@ Style/MethodCallWithArgsParentheses:
   - shared_context
   - should
   - should_not
+  - specify
   - task
   - Then
   - throw
   - to
   - to_not
   - use
+  - visit
   - When
   - xit
 Style/MutableConstant:
