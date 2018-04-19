@@ -1,6 +1,6 @@
 ## Usage
 
-The recommended version of [Rubocop](https://github.com/bbatsov/rubocop) to use is `0.49` or higher.
+The recommended version of [Rubocop](https://github.com/bbatsov/rubocop) to use is `0.55` or higher.
 
 Inside your project, add the `.rubocop.yml` file containing:
 

@@ -13,6 +13,8 @@ Layout/CaseIndentation:
   EnforcedStyle: end
 Layout/ElseAlignment:
   Enabled: false
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
 Layout/IndentHash:
   EnforcedStyle: consistent
 Lint/AmbiguousBlockAssociation:
@@ -24,8 +26,6 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
   AllowSafeAssignment: true
-Lint/EndAlignment:
-  EnforcedStyleAlignWith: variable
 Lint/HandleExceptions:
   Enabled: false
 Metrics/AbcSize:
@@ -46,8 +46,10 @@ Metrics/ParameterLists:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
-Style/AccessorMethodName:
+Naming/AccessorMethodName:
   Enabled: false
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
 Style/Alias:
   Enabled: false
 Style/AsciiComments:
@@ -157,7 +159,5 @@ Style/SymbolArray:
   Enabled: false
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
-Style/VariableNumber:
-  EnforcedStyle: snake_case
 Style/WordArray:
   Enabled: false
