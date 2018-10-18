@@ -132,6 +132,8 @@ Style/MethodCallWithArgsParentheses:
   - throw
   - to
   - to_not
+  - and
+  - or
   - use
   - When
   - xit
