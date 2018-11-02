@@ -69,6 +69,8 @@ Style/DoubleNegation:
   Enabled: false
 Style/EmptyCaseCondition:
   Enabled: false
+Style/FormatStringToken:
+  EnforcedStyle: template
 Style/FrozenStringLiteralComment:
   Enabled: true
   Exclude:
