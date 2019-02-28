@@ -1,3 +1,9 @@
+# blacklane/rubocop
+
+This is the generic Ruby style guide that we use in most Ruby projects at Blacklane, both public and internal.
+
+It helps us keep our code style consistent while not being too intrusive.
+
 ## Usage
 
 The recommended version of [Rubocop](https://github.com/bbatsov/rubocop) to use is `0.55` or higher.
