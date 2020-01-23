@@ -17,6 +17,8 @@ Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
+Layout/LineLength:
+  Max: 120
 Lint/AmbiguousBlockAssociation:
   Exclude:
   - "**/spec/**/*.rb"
@@ -38,8 +40,6 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Enabled: false
-Metrics/LineLength:
-  Max: 120
 Metrics/MethodLength:
   Enabled: false
 Metrics/ModuleLength:
