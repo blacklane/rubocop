@@ -15,7 +15,7 @@ Layout/ElseAlignment:
   Enabled: false
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -26,7 +26,7 @@ Lint/AmbiguousRegexpLiteral:
   Enabled: false
 Lint/AssignmentInCondition:
   AllowSafeAssignment: true
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Enabled: false
 Lint/UriEscapeUnescape:
   Enabled: false
