@@ -38,7 +38,7 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Enabled: false
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
   Enabled: false
@@ -97,7 +97,8 @@ Style/MethodCallWithArgsParentheses:
   - "*.gemspec"
   - config.ru
   IgnoreMacros: true
-  IgnoredMethods:
+  # IgnoredMethods is kept for RuboCop < 1.x consumers, AllowedMethods is its 1.x name.
+  IgnoredMethods: &allowed_methods
   - alias
   - alias_method
   - and
@@ -144,6 +145,7 @@ Style/MethodCallWithArgsParentheses:
   - visit
   - When
   - xit
+  AllowedMethods: *allowed_methods
 Style/MutableConstant:
   Enabled: false
 Style/NumericPredicate:
