@@ -38,7 +38,7 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Enabled: false
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
   Enabled: false
@@ -97,7 +97,7 @@ Style/MethodCallWithArgsParentheses:
   - "*.gemspec"
   - config.ru
   IgnoreMacros: true
-  IgnoredMethods:
+  AllowedMethods:
   - alias
   - alias_method
   - and
